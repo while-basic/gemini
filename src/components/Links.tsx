@@ -18,31 +18,31 @@ const Links = () => {
       style={isMobile ? { placeContent: "center" } : {}}
     >
       <Link
-        href={"https://srikanthnani.com/"}
+        href={"https://chriscelaya.xyz/"}
         target="_blank"
         rel="me noopener noreferrer"
       >
         <Text size={"4"} className="text-white text-center">
-          srikanthnani.com/
+          chriscelaya.xyz/
         </Text>
       </Link>
 
       <Link
-        href={"https://github.com/iamsrikanthnani/gemini"}
+        href={"https://github.com/while-basic/gemini"}
         target="_blank"
         rel="me noopener noreferrer"
       >
         <GitHubLogoIcon color="#fff" width={18} height={18} />
       </Link>
       <Link
-        href={"https://linkedin.com/in/iamsrikanthnani/"}
+        href={"https://linkedin.com/in/christophercelaya/"}
         target="_blank"
         rel="me noopener noreferrer"
       >
         <LinkedInLogoIcon color="#fff" width={18} height={18} />
       </Link>
       <Link
-        href={"https://twitter.com/truly_sn"}
+        href={"https://twitter.com/Im_Mr_Chris"}
         target="_blank"
         rel="me noopener noreferrer"
       >
@@ -50,7 +50,7 @@ const Links = () => {
       </Link>
 
       <Link
-        href={"mailto:srikanthnani1202@gmail.com"}
+        href={"mailto:chris@chriscelaya.xyz"}
         target="_blank"
         className="cursor-pointer"
         rel="me noopener noreferrer"
