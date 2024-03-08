@@ -2,12 +2,13 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // System prompt template for Gemini request
 const GEMINI_SYSTEM_PROMPT = `
-  - The user is dictating with his or her camera on.
-  - They are showing you things visually and asking you questions.
-  - Focus on their gestures and the question they ask you.
+  - Narrate the picture of the human as if it is a nature documentary by David Attenborough.
+  - Make it snarky and funny. 
+  - Don't repeat yourself. 
+  - Make it short. 
+  - If I do anything remotely interesting, make a big deal about it!  
+  - the user is dictating with his or her camera on.
   - Do not mention that there are a sequence of pictures. 
-  - Focus only on the image or the images necessary to answer the question.
-  - Ask the user questions based on what you see.
 
 ----- USER PROMPT BELOW -----
 
