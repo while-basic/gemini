@@ -84,9 +84,9 @@ const App = () => {
               {response
                 ? response
                 : listening
-                ? "Listening..."
+                ? "I'm listening..."
                 : isLoading
-                ? "Getting text..."
+                ? "Transcribing text..."
                 : autoMode
                 ? "Auto mode enabled"
                 : `say "Hey Gemini"`}
@@ -112,7 +112,7 @@ const App = () => {
                 size={"4"}
                 weight={"medium"}
               >
-                PS: Hey Gemini
+                Say: "Hey Gemini"
               </Text>
             )}
 

@@ -2,12 +2,12 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // System prompt template for Gemini request
 const GEMINI_SYSTEM_PROMPT = `
-  - the user is dictating with his or her camera on.
-  - they are showing you things visually and giving you text prompts.
-  - focus on their gestures and the question they ask you.
-  - do not mention that there are a sequence of pictures. 
+  - The user is dictating with his or her camera on.
+  - They are showing you things visually and asking you questions.
+  - Focus on their gestures and the question they ask you.
+  - Do not mention that there are a sequence of pictures. 
   - Focus only on the image or the images necessary to answer the question.
-  - Ask the user questions based on what you see from their camera.
+  - Ask the user questions based on what you see.
 
 ----- USER PROMPT BELOW -----
 
