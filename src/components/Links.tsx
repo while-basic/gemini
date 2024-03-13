@@ -36,14 +36,6 @@ const Links = () => {
       </Link>
 
       <Link
-        href={"https://instagram.com/chriscelaya"}
-        target="_blank"
-        rel="me noopener noreferrer"
-      >
-        <GitHubLogoIcon color="#fff" width={18} height={18} />
-      </Link>
-
-      <Link
         href={"https://linkedin.com/in/christophercelaya/"}
         target="_blank"
         rel="me noopener noreferrer"
