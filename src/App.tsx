@@ -11,6 +11,7 @@
  *
  * @returns {JSX.Element} - The JSX representation of the App component.
  */
+
 import { Flex, Switch, Text } from "@radix-ui/themes";
 import useApp from "@/hooks/useApp";
 import useResponsive from "@/hooks/useResponsive";
@@ -34,8 +35,10 @@ const App = () => {
 
   return (
     <div className="flex flex-col sm:flex-row h-screen bg-black p-8">
+      
       {/* links */}
       <Links />
+      
       {/* Camera layout */}
       <div className="lg:w-2/3 lg:h-full md:w-2/3 md:h-full sm:w-full h-4/6 sm:mr-2 mb-2 sm:mb-0">
         <div
@@ -67,6 +70,7 @@ const App = () => {
           />
         </Flex>
       )} */}
+      
       {/* Gemini response layout */}
       <div className="lg:w-1/3 lg:h-full md:w-1/3 md:h-full sm:w-full h-2/6">
         <div
@@ -92,6 +96,7 @@ const App = () => {
                 : `say "Hey Gemini"`}
             </Text>
           </Flex>
+          
           {/* FOOTER */}
           <Flex
             direction={"column"}

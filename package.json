@@ -9,20 +9,20 @@
     "Google Gemini",
     "Gemini Vision",
     "Image Recognition",
-    "Multimodal AI",
+    "Multi-modal AI",
     "Open Source",
     "Computer Vision"
   ],
-  "author": "Srikanth Nani",
+  "author": "Christopher Celaya",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iamwhile-basicani/gemini.git"
+    "url": "https://github.com/while-basic/gemini.git"
   },
   "bugs": {
-    "url": "https://github.com/iamwhile-basicani/gemini/issues"
+    "url": "https://github.com/while-basic/gemini/issues"
   },
-  "homepage": "https://gemini.while-basicani.com/",
+  "homepage": "https://gemini-three-indol.vercel.app/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
