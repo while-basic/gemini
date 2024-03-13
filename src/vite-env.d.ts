@@ -1,7 +1,7 @@
 /// <reference types="vite/client" />
 declare module "annyang" {
   export interface Commands {
-    [phrase: string]: (...args: any[]) => void;
+    [phrase: string]: (...args: unknown[]) => void;
   }
 
   export interface Annyang {
@@ -9,11 +9,11 @@ declare module "annyang" {
     abort(): void;
     pause(): void;
     resume(): void;
-    addCommands(commands: Commands, context?: any): void;
+    addCommands(commands: Commands, context?: unknown): void;
     removeCommands(commands?: Commands): void;
-    getSpeechRecognizer(): any;
+    getSpeechRecognizer(): unknown;
     setLanguage(language: string): void;
-    addCallback(type: string, callback: () => void, context?: any): void;
+    addCallback(type: string, callback: () => void, context?: unknown): void;
     removeCallback(type: string, callback: () => void): void;
   }
 
