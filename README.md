@@ -1,10 +1,6 @@
 # Google Gemini <sub><sup>with gemini-pro-vision modal</sup></sub>
 ### say "Hey Gemini"
 
-[![Gemini Demo](https://raw.githubusercontent.com/iamwhile-basicani/gemini/master/img/Screenshot.png)](https://www.youtube.com/watch?app=desktop&v=KWund_YgYFY)
-
-Explore the remarkable capabilities of Gemini, an open-source application powered by the Google Gemini Vision API(Gemini-pro-vision modal). Seamlessly reasoning across text, and images. Gemini is your gateway to the future of AI.
-
 ## 🚀 Quick Start
 
 **Demo:** [Gemini Demo](https://gemini.while-basicani.com/)
