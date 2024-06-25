@@ -5,21 +5,24 @@
 
 **Demo:** [Gemini Demo](https://gemini.while-basicani.com/)
 
-#### step: 1 Clone the repository
+#### Step: 1 Clone the repository
 
 ```bash
 git clone https://github.com/iamwhile-basicani/gemini.git
 ```
 
-#### step: 2
+#### Step: 2
 
 ```bash
 npm install
 ```
 
-#### step:3 🔑 Setup Gemini API Key: Rename `.env.example` to `.env` and paste your Gemini API key in `VITE_GEMINI_KEY`.
+#### Step: 3 Setup Gemini API Key
+```
+Rename `.env.example` to `.env` and paste your Gemini API key in `VITE_GEMINI_KEY`.
+```
 
-#### step:4 Run locally
+#### Step: 4 Run locally
 
 ```bash
 npm run dev
