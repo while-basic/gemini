@@ -3,7 +3,7 @@
 
 ## 🚀 Quick Start
 
-**Demo:** [Gemini Demo](https://gemini.while-basicani.com/)
+**Demo:** [Gemini Demo](https://gemini-three-indol.vercel.app/)
 
 #### Step: 1 Clone the repository
 
